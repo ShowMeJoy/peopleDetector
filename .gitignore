@@ -1,0 +1,8 @@
+__pycache__/
+*.pt
+*.jpg
+runs/
+temp_*.jpg
+.venv/
+private_path.py
+data/
