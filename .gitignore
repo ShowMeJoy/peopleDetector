@@ -6,3 +6,4 @@ temp_*.jpg
 .venv/
 private_path.py
 data/
+.idea/
