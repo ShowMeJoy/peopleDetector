@@ -3,7 +3,7 @@
 This project is a simple object detection microservice built with **YOLOv8** and **FastAPI**.  
 It allows you to upload an image and get back object detection results — either in **JSON** or as a **processed image with bounding boxes**.
 
-> 🔧 The goal is to prepare for real-time ML inference on a Raspberry Pi using a lightweight object detection pipeline.
+> The goal is to prepare for real-time ML inference on a Raspberry Pi using a lightweight object detection pipeline.
 
 ---
 
@@ -11,7 +11,7 @@ It allows you to upload an image and get back object detection results — eithe
 
 - Object detection using a YOLOv8 model (trained on people)
 - REST API with FastAPI
-- 🖼Two endpoints:
+- Two endpoints:
   - `/predict`: returns detection results as JSON
   - `/predict-image`: returns image with drawn bounding boxes
 - Private paths and tokens are managed in `private_paths.py` (excluded from Git)
