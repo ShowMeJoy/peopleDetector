@@ -1,4 +1,4 @@
-# 🛰️ People Detector API
+# People Detector API
 
 This project is a simple object detection microservice built with **YOLOv8** and **FastAPI**.  
 It allows you to upload an image and get back object detection results — either in **JSON** or as a **processed image with bounding boxes**.
@@ -7,18 +7,18 @@ It allows you to upload an image and get back object detection results — eithe
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🧠 Object detection using a YOLOv8 model (trained on people)
-- 📦 REST API with FastAPI
-- 🖼️ Two endpoints:
+- Object detection using a YOLOv8 model (trained on people)
+- REST API with FastAPI
+- 🖼Two endpoints:
   - `/predict`: returns detection results as JSON
   - `/predict-image`: returns image with drawn bounding boxes
-- 🔒 Private paths and tokens are managed in `private_paths.py` (excluded from Git)
+- Private paths and tokens are managed in `private_paths.py` (excluded from Git)
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python 3.12
 - Ultralytics YOLOv8
@@ -28,7 +28,7 @@ It allows you to upload an image and get back object detection results — eithe
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 <pre><code>people_detector/ 
 ├── api/ 
 │   └── main.py # FastAPI app 
